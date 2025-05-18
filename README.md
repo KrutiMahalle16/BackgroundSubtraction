@@ -28,3 +28,16 @@ Background subtraction is a method of segmenting out foreground objects from the
 5. Display or save the motion mask over time.
 
 ---
+
+## 📷 Sample Output
+
+The output video highlights moving objects with a white foreground mask against a black background. You can also draw bounding boxes around moving areas.
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates a practical approach to motion detection using background subtraction. It’s a foundational technique for security systems, traffic monitoring, and object tracking.
+
+---
+
