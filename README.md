@@ -17,3 +17,14 @@ Background subtraction is a method of segmenting out foreground objects from the
 - NumPy
 
 ---
+## 🔄 Method Overview
+
+1. Load input video.
+2. Initialize background subtractor using OpenCV’s built-in algorithms:
+   - `cv2.createBackgroundSubtractorMOG2()`
+   - or `cv2.createBackgroundSubtractorKNN()`
+3. Apply the subtractor to each frame to detect motion.
+4. Use morphological operations to clean the mask.
+5. Display or save the motion mask over time.
+
+---
